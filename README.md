@@ -119,8 +119,10 @@ import "gopkg.in/user/project.tag"
 
 ```
 
+备注：使用这种方式，建议开源库不创建文件夹，即所有的源代码置放在项目根目录下，因为相互导入的过程地址会产生不一致的行为。
 
 [![go-versin.v1.v1](http://ww1.sinaimg.cn/large/741fdb86gy1g0cyon3ddzj213w0l3tal.jpg)](https://gopkg.in/wuxiaoxiaoshen/go-version.v1.v1)
+
 
 ### 5. travisCI
 
