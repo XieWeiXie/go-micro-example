@@ -120,6 +120,8 @@ import "gopkg.in/user/project.tag"
 ```
 
 
+[![go-versin.v1.v1](http://ww1.sinaimg.cn/large/741fdb86gy1g0cyon3ddzj213w0l3tal.jpg)](https://gopkg.in/wuxiaoxiaoshen/go-version.v1.v1)
+
 ### 5. travisCI
 
 持续集成，即对代码进行持续集成，查看是否成功，持续集成，一般执行单元测试、功能测试等，检验新合入的代码是否正确，能够推送到生成环境中
