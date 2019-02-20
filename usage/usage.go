@@ -3,7 +3,7 @@ package usage
 import (
 	"fmt"
 
-	"gopkg.in/wuxiaoxiaoshen/go-version.v1/common"
+	"gopkg.in/wuxiaoxiaoshen/go-version.v1.v1/common"
 )
 
 func NewHello() {
