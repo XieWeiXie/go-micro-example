@@ -12,4 +12,4 @@ notifications:
     on_failure: always # default: always
 before_install:
   - go vet $(go list ./... | grep -v /vendor/)
-script: ture
+script: true
