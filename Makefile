@@ -15,6 +15,9 @@ protoc:
 tidy:
 	go mod tidy
 
+vendor:
+	go mod vendor
+
 init:
 	go mod init
 
