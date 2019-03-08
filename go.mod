@@ -1,1 +1,1 @@
-module github.com/wuxiaoxiaoshen/go-version.v1
+module github.com/wuxiaoxiaoshen/go-micro-example
