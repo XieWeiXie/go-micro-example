@@ -1,3 +1,4 @@
+//go:generate protoc -I=../protoc --go_out=plugins=grpc:../protoc ../protoc/search.proto
 package main
 
 import (
