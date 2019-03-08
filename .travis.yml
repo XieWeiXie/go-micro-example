@@ -1,0 +1,15 @@
+language: go
+go:
+  - "1.11"
+  - "1.11.x"
+env:
+  - GO111MODULE=on
+notifications:
+  email:
+    recipients:
+      - wuxiaoshen@shu.edu.cn
+    on_success: change # default: change
+    on_failure: always # default: always
+before_install:
+  - go vet $(go list ./... | grep -v /vendor/)
+script: ture
