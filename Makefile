@@ -10,7 +10,8 @@ default:
 protoc:
 	bash protoc.sh
 
-
+multiply:
+	bash multiply.sh
 
 tidy:
 	go mod tidy

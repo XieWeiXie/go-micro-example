@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package report;
+
+import "github.com/wuxiaoxiaoshen/go-micro-example/srv/auth/protoc/auth.proto";
+
+message Request {
+    int32 ID = 1;
+    string name = 2;
+    repeated auth.Request auth = 3;
+}
+
+message Response {
+    int64 ID = 1;
+    string name = 2;
+    string school = 3;
+}
+
+service GetOneReport {
+    rpc GetOne(Request) returns (Response) {}
+    rpc UpdateOne(Request) returns (Response) {}
+    rpc DeleteOne(Request) returns (Response) {}
+}
+
